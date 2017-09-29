@@ -1,7 +1,7 @@
 import request from 'superagent';
 import md5 from 'md5'
 
-const baseUrl = 'http://gateway.marvel.com/v1/public/';
+const baseUrl = 'https://gateway.marvel.com/v1/public/';
 
 function generateCredentials(){
   let publicKey = process.env.REACT_APP_MARVEL_PUBLIC_KEY;
