@@ -1,7 +1,7 @@
 import request from 'superagent';
 
 
-const baseUrl = 'http://jservice.io/api/random';
+const baseUrl = 'https://jservice.io/api/random';
 
 
 export function getQuestion(){
