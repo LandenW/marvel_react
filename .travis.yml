@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+- '7'
+deploy:
+  provider: heroku
+  api_key:
+    secure: b0aa6206-e679-47d6-9490-20dad5ca0546
+  app: obscure-spire-41744
+
